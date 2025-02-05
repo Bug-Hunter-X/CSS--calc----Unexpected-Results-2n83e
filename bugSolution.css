@@ -1,0 +1,1 @@
+To fix the issue, always ensure that all terms within the `calc()` function have explicit units.  The corrected code is: `width: calc(50% - 10px);` This explicitly defines both terms with pixel units, preventing any unexpected results.
